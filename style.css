@@ -30,6 +30,30 @@ header{
     flex-grow: 1;
     border-bottom: 8px var(--red-details) solid;
 }
+
+.navigation{
+    grid-column: 9 / -1;
+    align-self: flex-end;
+    font-size: 1.5rem;
+    
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.navigation ul li  {
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation ul li a:hover {
+    color: #C73A42;
+}
 main{
     flex-grow: 10;
     
